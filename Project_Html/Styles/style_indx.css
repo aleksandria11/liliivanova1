@@ -1,0 +1,129 @@
+body, nav, li, ul, a, main,img, header, footer, iframe{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	background-image: url(../images/wrapper2.jpg), url(../images/wrapper.jpg);
+	background-repeat: repeat-x, repeat;
+   
+}
+/*Navigation menu*/
+nav{
+	position:relative;
+	width:60%;
+	height:30px;
+	padding:10px;
+	margin:155px auto;
+	background-color:#CCCCFF;
+	border-radius:20px 0;
+	border: solid 1px;
+	box-shadow:20px -20px 20px #292929;
+	
+}
+/*Link animation*/
+a:hover{
+	
+	box-shadow:10px 5px 10px #292929;
+	
+
+	
+}
+
+ul{
+	text-align:center;
+	
+}
+li{
+	display:inline-block;
+	text-align:center;
+	border-collapse:collapse;
+
+}
+a{
+	text-decoration:none;
+	color:#000;
+	font-family:Verdana;
+	font-size:15px;
+	margin: 20px;
+	padding:10px 20px;
+	
+}
+
+main{
+	position:absolute;
+	width:60%;
+	height:800px;
+	left:20%;
+	top: 250px;
+	background-color:#CCCCFF;
+	border-radius:20px ;
+	border: solid 1px;
+	box-shadow:20px 20px 20px #292929;
+	cursor:pointer;
+}
+h1{
+	text-align:center;
+	font-family:Times New Roman;
+}
+/*Picture in index.html*/
+img {
+	padding-top:5%;
+	width:810px;
+}
+p{
+	position:relative;
+	left:10%;
+	width:80%;
+	text-align:center;
+	font-family:times new roman;
+	font-size:20px;
+	
+}
+/*Link for biografy.html*/
+#info{
+	margin:10px;
+	padding:10px 5px;
+	background-color:#8080FF;
+}
+footer{
+	position:absolute;
+	top:1050px;
+	width:100%;
+}
+#footer{
+	text-align:center;
+	font-size:12px;
+}
+span{
+	color:#808040;
+}
+.biografy{
+	height:1500px;
+}
+#biografy{
+	position:absolute;
+	top:1750px;
+	width:100%;
+}
+.pictures{
+	border-radius:10px;
+	width:100px;
+}
+.menu{
+	margin:10px;
+	padding:0;
+}
+.menu1{
+	
+    display:block;
+
+}
+/*videos*/
+iframe{
+	margin:40px;
+	border-radius:20px;
+	box-shadow:20px 20px 20px #292929;
+
+	}

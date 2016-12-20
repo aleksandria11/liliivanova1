@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="bg">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="styles/style_indx.css"/>
+      <link rel="stylesheet" type="text/css" href="styles/form_style.css"/>
+      <title>Ímvites</title>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+				<li><a href="index.html">Начало</a></li><li>
+				<a href="biografy.html">Биография</a></li><li>
+				<a href="galery.html">Галерия</a></li><li>
+				<a href="discografy.html">Дискография</a></li><li>
+				<a href="invites.html">Покани</a></li>
+			</ul>
+         </nav>
+      </header>
+      <main>
+         <h1>Покани за участие</h1>
+         <form action="mailto:versatche@abv.bg" method="post">
+            <table>
+               <tr>
+                  <th colspan="3">
+                     ОСНОВНИ ДАННИ
+                  </th>
+               </tr>
+               <tr>
+                  <td>Име:<br/><input type="text" name="fname" size="21"></td>
+                  <td>Презиме:<br/><input type="text" name="fname" size="21"></td>
+                  <td>Фамилия:<br/><input type="text" name="sname" size="21"></td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="city">Област</label> 
+                     <select id ="city" name="city">
+                        <option value="0" selected="selected">Област</option>
+                        <option value="1">Област Благоевград</option>
+                        <option value="2">Област Бургас</option>
+                        <option value="3">Област Варна</option>
+                        <option value="4">Област Велико Търново</option>
+                        <option value="5">Област Видин</option>
+                        <option value="6">Област Враца</option>
+                        <option value="7">Област Габрово</option>
+                        <option value="8">Област Добрич</option>
+                        <option value="9">Област Кърджали</option>
+                        <option value="10">Област Кюстендил</option>
+                        <option value="11">Област Ловеч</option>
+                        <option value="12">Област Монтана</option>
+                        <option value="13">Област Пазарджик</option>
+                        <option value="14">Област Перник</option>
+                        <option value="15">Област Плевен</option>
+                        <option value="16">Област Пловдив</option>
+                        <option value="17">Област Разград</option>
+                        <option value="18">Област Русе</option>
+                        <option value="19">Област Силистра</option>
+                        <option value="20">Област Сливен</option>
+                        <option value="21">Област Смолян</option>
+                        <option value="22">Софийска област</option>
+                        <option value="23">Област София</option>
+                        <option value="24">Област Стара Загора</option>
+                        <option value="25">Област Търговище</option>
+                        <option value="26">Област Хасково</option>
+                        <option value="27">Област Шумен</option>
+                        <option value="28">Област Ямбол</option>
+                     </select>
+                  </td>
+				  <td>
+                     <label for="sex">Пол</label> 
+                     <select id ="sex" name="sex">
+                        <option value="0" selected="selected">Пол</option>
+                        <option value="1">Мъж</option>
+                        <option value="2">Жена</option>
+                   
+                     </select>
+                  </td>
+				  <td>
+                     <label for="age">Възраст</label> 
+                     <select id ="age" name="age">
+                        <option value="0" selected="selected">18 до 24</option>
+                        <option value="1">25 до 30</option>
+                        <option value="2">31 до 40</option>
+						<option value="3">41+</option>
+                   
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <th colspan="3">Относно</th>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="ask">Публичен ангажимент</label>
+                     <input id="ask" type="radio" name="ask" value="Uchastie">
+                  </td>
+                  <td>
+                     <label for="ask2">Частен ангажимент</label><input id="ask2" type="radio" name="ask" value="private"> 
+                  </td>
+				  <td>
+                     <label for="ask3">Друго</label><input id="ask3" type="radio" name="ask" value="other"> 
+                  </td>
+               </tr>
+               <tr>
+                  <th colspan="3">Искам да получа отговор на:</th>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="email">Имейл</label>
+                     <input id="email" type="checkbox" name="letter" value="email"> 
+                  </td>
+                  <td>
+                     <label for="call">Tелефона</label>
+                     <input id="call" type="checkbox" name="letter" value="call"> 
+                  </td>
+				   <td>
+                     <label for="meet">Лична среща</label>
+                     <input id="meet" type="checkbox" name="letter" value="meet"> 
+                  </td>
+               </tr>
+               <tr>
+                  <th colspan="3">Вашия текст</th>
+               </tr>
+               <tr>
+                  <td colspan="3">
+                     <textarea name="description" cols="60" rows="10">Тук напишете вашето запитване...</textarea>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="3"><input type="submit" value="Изпрати" ><input type="reset" value="Изчисти" ></td>
+               </tr>
+            </table>
+         </form>
+      </main>
+      <footer>
+         <p id="footer">Този сайт е направен за учебни цели от Александрия Попова </p>
+      </footer>
+   </body>
+</html>

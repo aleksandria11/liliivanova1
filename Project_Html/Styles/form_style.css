@@ -1,0 +1,36 @@
+table
+        {
+			position:relative;
+			top:20px;
+			left:7%;
+            caption-side:top;
+			
+            width:700px;
+            border-collapse:collapse;
+            text-align:center;
+            border-spacing:0px;
+            background-color:#d9d9ff;
+            
+            }
+            tr, td, th
+            {
+                border: 0px nonbe #5353ff;
+                padding:10px;
+                min-height:20px;
+             }
+             
+         
+                       
+                        th
+                        {
+                            font-family:Arial, helvetica, Sans-Serif;
+                            font-size: 11pt;
+                            font-style: normal;
+                            color:#ffffff;
+                            font-weight:bold;
+                            background-color:#6666ff;
+                            background-position: center center;
+                            padding:10px;
+                            text-align: center;
+                            }
+                          
