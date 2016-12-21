@@ -11,7 +11,7 @@
 #pix {
 	position: absolute; 
 	top:0px; 
-	left:10%;
+	left:10%
 	
 	}
 #pix2 {position: absolute;
@@ -66,8 +66,8 @@ img {
 .index_pix{
 	position:absolute;
 	top:300px;
-	left:5px;
-	width:800px;
+	left:7px;
+	width:95%;
 	height:30%;
 	box-shadow:10px 5px 10px #292929;
 }
