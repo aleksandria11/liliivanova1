@@ -70,7 +70,8 @@ h1{
 /*Picture in index.html*/
 img {
 	padding-top:5%;
-	width:810px;
+	width:100%;
+	height:30%;
 }
 p{
 	position:relative;
