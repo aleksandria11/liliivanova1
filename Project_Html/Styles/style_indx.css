@@ -67,6 +67,7 @@ h1{
 	position:relative;
 	left:50%;
 	font-family:Times New Roman;
+	font-size:90%;
 }
 /*Picture in index.html*/
 img {
@@ -80,7 +81,7 @@ p{
 	width:80%;
 	text-align:center;
 	font-family:times new roman;
-	font-size:70%;
+	font-size:90%;
 	
 }
 /*Link for biografy.html*/
@@ -124,7 +125,9 @@ span{
 }
 /*videos*/
 iframe{
-	margin:40px;
+	width:30%;
+	margin-left:10%;
+	margin-bottom:5%;
 	border-radius:20px;
 	box-shadow:20px 20px 20px #292929;
 
